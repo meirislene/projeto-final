@@ -1,0 +1,36 @@
+h1{
+    font-style: italic;
+    text-align: center;
+    background-color: #9dc9ac;
+}
+
+
+header {
+    border: #9dc9ac;
+    background-color: #9dc9ac;
+    float:relative;
+    text-align: center;
+}
+
+header nav img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+
+.nav ul li{
+    margin: 40px;
+    display: flex;
+    float: right;
+}
+
+
+.foto img{
+    border-style: dotted;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
