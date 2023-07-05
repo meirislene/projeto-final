@@ -1,9 +1,30 @@
 h1{
     text-align: center;
     font-style: italic;
+    font-size: 40px;
+
 }
-.extarea{
-    background-color: #f56218;
+body{
+    background-color: #c7c7b4;
+}
+
+textarea{
+    background-color:#ff9d2e ;
     text-align: center;
+    display: block;
+
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    
+}
+.texto {
+    font-style: oblique;
+    text-align: center;
+    font-size: 22px;
 
 }

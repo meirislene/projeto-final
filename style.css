@@ -10,6 +10,7 @@ header {
     background-color: #9dc9ac;
     float:relative;
     text-align: center;
+
 }
 
 header nav img{
@@ -17,13 +18,15 @@ header nav img{
     height: 50px;
     display: flex;
     justify-content: left;
+    margin: auto;
 }
 
-
-.nav ul li{
-    margin: 40px;
-    display: flex;
-    float: right;
+header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+body{
+    background-color: #fffec7;
 }
 
 
@@ -31,6 +34,31 @@ header nav img{
     border-style: dotted;
     width: 200px;
     height: 200px;
+    margin-top:50px;
+    
+}
+p{
     text-align: center;
+}
 
+.bnt a img{
+    text-align: center;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+     
+}
+.foto {
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.bnt {
+    text-align: center;
 }
